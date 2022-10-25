@@ -1,0 +1,277 @@
+body {
+    font-family: sans-serif;
+}
+
+.part-one {
+    background-color: #0069d9;
+}
+
+#second-h1 {
+    line-height: 1.5;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 2% 15% 8%;
+}
+
+.navbar {
+    padding-left: 0px;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 2rem;
+    font-family: unset;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.navbar-nav {
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+#second-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30px;
+}
+
+@media (max-width: 1070px) {
+    #second-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #second-div {
+        text-align: center;
+    }
+}
+
+
+.part-two {
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+.p-two {
+    padding: 5%;
+}
+
+.img-two {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.img-two:hover {
+    opacity: 70%;
+}
+
+.p-two p {
+    color: rgb(116, 111, 111);
+}
+
+.p-two h3 {
+    font-weight: bold;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #0069d9;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.part-three-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.part-three-h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.part-four {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.section-pink,
+.section-white {
+    text-align: center;
+}
+
+.section-pink {
+    background: #0069d9;
+    color: #fff;
+}
+
+.section-white {
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#title-nav {
+    text-align: left;
+}
+
+.navbar {
+    margin: 0 0 4.5rem;
+}
+
+.nav-item {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.btn-download {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30px;
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.icon {
+    margin-bottom: 1rem;
+    color: #0069d9;
+    transition: 0.3s;
+}
+
+.p-two:hover .icon {
+    color: #0158b5;
+    scale: 1.4;
+}
+
+#Testimonials {
+    padding: 7% 15%;
+}
+
+.part-three-p {
+    color: #fff;
+}
+
+.dog-img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+#press {
+    padding: 0% 10%;
+    text-align: center;
+    background-color: #0069d9;
+}
+
+#press img {
+    width: 10em;
+}
+
+#myCarousel {
+    padding: 1% 23%;
+    margin: 1% -23%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 2%;
+}
+
+.cocial-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+    #title-nav {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
